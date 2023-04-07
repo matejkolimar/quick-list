@@ -1,0 +1,36 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "john@example.com",
+      "password": "hashed_password"
+    }
+  ],
+  "shoppingLists": [
+    {
+      "id": 1,
+      "userId": 1,
+      "items": [
+        {
+          "product": { "id": 1, "name": "Apple", "categoryId": 1 },
+          "quantity": 2
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Apple",
+      "categoryId": 1
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Fruits",
+      "position": 1,
+      "color": "#FF0000"
+    }
+  ]
+}
